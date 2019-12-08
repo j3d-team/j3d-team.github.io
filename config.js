@@ -21,8 +21,8 @@ const config = {
     }
   },
   sidebar: {
-    forcedNavOrder: ["/introduction", "/codeblock"],
-    links: [],
+    forcedNavOrder: ["/", "/codeblock"],
+    links: [{ text: "Trello", link: "https://trello.com/j3d4/home" }],
     frontline: false,
     ignoreIndex: true
   },
@@ -33,6 +33,32 @@ const config = {
     docsLocation:
       "https://github.com/j3d-team/j3d-team.github.io/tree/origin/content",
     favicon: "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg"
+  },
+  authors: {
+    j1: {
+      name: "J1",
+      imageUrl: "https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=J1",
+      githubUrl: "",
+      description: ":)"
+    },
+    j2: {
+      name: "J2",
+      imageUrl: "https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=J2",
+      githubUrl: "",
+      description: ":)"
+    },
+    j3: {
+      name: "J3",
+      imageUrl: "https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=J3",
+      githubUrl: "",
+      description: ":)"
+    },
+    D1: {
+      name: "D1",
+      imageUrl: "https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=D1",
+      githubUrl: "",
+      description: "ㅎ.ㅎ"
+    }
   }
 };
 
