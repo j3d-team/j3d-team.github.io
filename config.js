@@ -21,7 +21,7 @@ const config = {
     }
   },
   sidebar: {
-    forcedNavOrder: ["/", "/codeblock"],
+    forcedNavOrder: ["/npm-module", "/codeblock"],
     links: [{ text: "Trello", link: "https://trello.com/j3d4/home" }],
     frontline: false,
     ignoreIndex: true

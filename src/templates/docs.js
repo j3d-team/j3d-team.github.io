@@ -194,8 +194,8 @@ export const pageQuery = graphql`
         }
       }
       frontmatter {
-        metaTitle
         author
+        metaTitle
         metaDescription
       }
     }
