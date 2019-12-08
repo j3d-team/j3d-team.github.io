@@ -53,7 +53,7 @@
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build --prefix-paths",
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
     "gatsby-plugin-remove-trailing-slashes": "^2.1.2",
