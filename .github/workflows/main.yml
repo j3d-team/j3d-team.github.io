@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v1
       - name: npm install
         run: npm install --production
       - name: build
         run: npm run build
       - name: GitHub Pages Deploy
         uses: maxheld83/ghpages@v0.2.1
-        with:
-          secrets: ${{ secrets.GH_PAT }}
         env:
           BUILD_DIR: "public/"
+          GH_PAT: ${{ secrets.GH_PAT }}
