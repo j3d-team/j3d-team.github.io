@@ -1,0 +1,14 @@
+name: PR MERGE
+on:
+  pull_request:
+    branches:
+    - dev
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Automatic Merge
+      uses: lots0logs/gh-action-auto-merge@1.0.0
