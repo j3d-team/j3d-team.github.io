@@ -10,11 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-      - name: Run npm install
-        run: npm install
-      - name: Run gatsby build
-        run: npm run build
       - name: GitHub Pages Deploy
         uses: maxheld83/ghpages@v0.2.1
         with: ${{ secrets.GH_PAT }}
