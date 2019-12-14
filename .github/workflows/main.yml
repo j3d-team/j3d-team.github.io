@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: npm install
-        run: npm install
+        run: npm install --production
       - name: build
         run: npm run build
       - name: GitHub Pages Deploy
