@@ -17,7 +17,7 @@ UX에 관심이 많은 프론트엔드 개발자입니다. 새로운 도전을 �
 
 ## J2
 
-![profile](./ap1.jpg)
+![profile](https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=J2)
 자기소개 2
 
 ## J3
