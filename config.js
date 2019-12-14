@@ -6,7 +6,7 @@ const config = {
   },
   header: {
     logo: "",
-    logoLink: "https://j3d-team.github.io",
+    logoLink: "/",
     title: "J3D Team Blog",
     githubUrl: "https://github.com/j3d-team/j3d-team.github.io",
     helpUrl: "",
@@ -27,19 +27,19 @@ const config = {
     ignoreIndex: true
   },
   siteMetadata: {
-    title: "J3D 팀 블로그",
-    description: "입니다.",
+    title: "J3D 개발 블로그",
+    description: "J3D 개발 블로그입니다.",
     ogImage: null,
     docsLocation:
       "https://github.com/j3d-team/j3d-team.github.io/tree/origin/content",
-    favicon: "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg"
+    favicon: "https://j3d-team.github.io/static/logo-647815e78af964d695f5f9a14d12b958.png"
   },
   authors: {
     J1: {
       name: "J1",
-      imageUrl: "https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=J1",
-      githubUrl: "",
-      description: ":)"
+      imageUrl: "./j1.png",
+      githubUrl: "https://github.com/jinkyung",
+      description: "UX에 관심이 많은 프론트엔드 개발자입니다. 새로운 도전을 좋아합니다."
     },
     J2: {
       name: "J2",
