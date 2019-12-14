@@ -17,7 +17,7 @@ UX에 관심이 많은 프론트엔드 개발자입니다. 새로운 도전을 �
 
 ## J2
 
-![profile](./ap1.jpg)
+![profile](https://avatars3.githubusercontent.com/u/17061350?s=460&v=4)
 자기소개 2
 
 ## J3
