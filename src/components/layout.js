@@ -23,7 +23,8 @@ const Content = styled('main')`
   margin-top: 3rem;
 
   @media only screen and (max-width: 1023px) {
-    padding-left: 0;
+    padding-left: 10px;
+    padding-right: 5px;
     margin: 0 10px;
     margin-top: 3rem;
   }
