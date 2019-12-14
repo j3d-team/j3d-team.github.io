@@ -13,11 +13,11 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          {config.siteMetadata.ogImage ? 
+          {config.siteMetadata.ogImage ?
             (<meta property="og:image" content={config.siteMetadata.ogImage} />) : null
           }
           <meta property="twitter:card" content="summary_large_image" />
-          {config.siteMetadata.ogImage ? 
+          {config.siteMetadata.ogImage ?
             (<meta property="twitter:image" content={config.siteMetadata.ogImage} />) : null
           }
           {config.siteMetadata.favicon ?
@@ -25,14 +25,18 @@ export default class HTML extends React.Component {
           }
           <title>{config.siteMetadata.title}</title>
           <link rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossOrigin="anonymous" />
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossOrigin="anonymous" />
           <script
-  			  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  			  crossOrigin="anonymous"></script>
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossOrigin="anonymous"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossOrigin="anonymous"></script>
           {this.props.headComponents}
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <script dangerouslySetInnerHTML={{
+            __html: `(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-6061634876787888",enable_page_level_ads: true});`
+          }} />
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
@@ -43,15 +47,15 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
           <script
-          dangerouslySetInnerHTML={{
-            __html: `
+            dangerouslySetInnerHTML={{
+              __html: `
             $(document).on('click','.navbar-collapse.in',function(e) {
               if( $(e.target).is('a') ) {
                 $(this).collapse('hide');
               }
             });
             `
-          }}
+            }}
           />
         </body>
       </html>
