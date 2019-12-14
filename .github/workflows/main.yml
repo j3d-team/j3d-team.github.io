@@ -22,6 +22,6 @@ jobs:
           build_dir: public
         uses: crazy-max/ghaction-github-pages@v1.2.5
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           GITHUB_PAT: ${{ secrets.GH_PAT }}
 

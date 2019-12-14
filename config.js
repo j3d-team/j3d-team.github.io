@@ -57,7 +57,7 @@ const config = {
       name: "D1",
       imageUrl: "https://avatars3.githubusercontent.com/u/17061350?s=460&v=4",
       githubUrl: "https://github.com/ifmoon",
-      description: "넓고 얕게 배운 초보 프론트엔드 개발자입니다."
+      description: "넓고 얕게 공부한 프론트엔드 개발자입니다."
     }
   }
 };
