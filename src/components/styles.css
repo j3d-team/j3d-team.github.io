@@ -775,7 +775,10 @@ img {
 }
 
 @media (max-width: 767px) {
-.navBarBrand {
-    padding: 0;
-}
+  .navBarBrand {
+      padding: 0;
+  }
+  .navBarDefault {
+    padding: 0 10px;
+  }
 }

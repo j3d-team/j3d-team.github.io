@@ -6,7 +6,7 @@ const config = {
   },
   header: {
     logo: "",
-    logoLink: "https://j3d-team.github.io",
+    logoLink: "/",
     title: "J3D Team Blog",
     githubUrl: "https://github.com/j3d-team/j3d-team.github.io",
     helpUrl: "",

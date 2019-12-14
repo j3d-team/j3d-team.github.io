@@ -56,7 +56,7 @@ const Header = ({location}) => (
           }
         }
       } = data;
-      const finalLogoLink = logo.link !== '' ? logo.link : '/';
+      const finalLogoLink = '/';
       return (
         <div className={'navBarWrapper'}>
           <nav className={'navbar navbar-default navBarDefault'}>
