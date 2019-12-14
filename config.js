@@ -35,19 +35,19 @@ const config = {
     favicon: "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg"
   },
   authors: {
-    j1: {
+    J1: {
       name: "J1",
       imageUrl: "https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=J1",
       githubUrl: "",
       description: ":)"
     },
-    j2: {
+    J2: {
       name: "J2",
       imageUrl: "https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=J2",
       githubUrl: "",
       description: ":)"
     },
-    j3: {
+    J3: {
       name: "J3",
       imageUrl: "https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=J3",
       githubUrl: "",
