@@ -5,6 +5,7 @@ import ThemeProvider from "./themeProvider";
 import mdxComponents from "./mdxComponents";
 import Sidebar from "./sidebar";
 import RightSidebar from "./rightSidebar";
+import GoTopButton from "./GoTopButton";
 
 const Wrapper = styled('div')`
   display: flex;
@@ -54,6 +55,7 @@ const Layout = ({ children, location }) => (
         <RightSideBarWidth className={'hidden-xs'}>
           <RightSidebar location={location} />
         </RightSideBarWidth>
+        <GoTopButton />
       </Wrapper>
     </MDXProvider>
   </ThemeProvider>
