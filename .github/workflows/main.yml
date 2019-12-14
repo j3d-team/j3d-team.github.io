@@ -13,6 +13,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: npm run install && npm run build
+      run: npm install && npm run build
     - name: GitHub Pages Deploy
       uses: maxheld83/ghpages@v0.2.1
