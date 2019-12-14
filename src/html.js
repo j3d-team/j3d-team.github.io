@@ -33,10 +33,7 @@ export default class HTML extends React.Component {
             crossOrigin="anonymous"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossOrigin="anonymous"></script>
           {this.props.headComponents}
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <script dangerouslySetInnerHTML={{
-            __html: `(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-6061634876787888",enable_page_level_ads: true});`
-          }} />
+          <script data-ad-client="ca-pub-6061634876787888" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
