@@ -79,8 +79,6 @@ const Sidebar = styled("aside")`
   background: -o-linear-gradient(top, #372476, #3b173b);
   @media only screen and (max-width: 767px) {
     padding-left: 0px;
-    background-color: #372476;
-    background: #372476;
   }
   @media (min-width: 767px) and (max-width: 1023px) {
     padding-left: 0;

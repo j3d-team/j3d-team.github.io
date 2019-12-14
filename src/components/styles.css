@@ -35,10 +35,7 @@ body * {
   margin: 0 15px;
   border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
-.navBarULRight {
-  /* position: absolute;
-  right: 30px; */
-}
+
 .githubIcon {
   width: 15px;
   margin-right: 5px;
@@ -60,8 +57,9 @@ body * {
   background-color: #fff !important;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle {
-  background-color: #542683;
+.navbar-default .navbar-toggle {
+  background-color: #372476 !important;
+  background: -webkit-linear-gradient(top,#372476,#3b173b);
 }
 
 .headerWrapper {
@@ -159,7 +157,6 @@ body * {
 
 /* Header section starts here */
 .navBarDefault {
-  /* background-color: #372476; */
   background-color: white;
   border-radius: 0;
   border-top: 0;
@@ -167,10 +164,6 @@ body * {
   border: 0;
   display: flex;
   align-items: center;
-  /* box-shadow: -1px 0px 4px 1px rgba(175,158,232,.4);
-  -webkit-box-shadow: -1px 0px 4px 1px rgba(175,158,232,.4);
-  -moz-box-shadow: -1px 0px 4px 1px rgba(175,158,232,.8);
-  -o-box-shadow: -1px 0px 4px 1px rgba(175,158,232,.4); */
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
   z-index: 1;
   padding: 10px;
@@ -185,11 +178,9 @@ body * {
   line-height: 1.5;
   font-weight: 500;
   color: rgb(30, 29, 28) !important;
-  /* color: #fff !important; */
   padding: 0px 0px;
   display: flex;
   align-items: center;
-
 }
 
 .navBarBrand img {
@@ -224,7 +215,7 @@ body * {
 }
 pre {
   border: 0 !important;
-  background-color: rgb(245, 247, 249); /* !important; */
+  background-color: rgb(245, 247, 249);
 }
 
 .mainWrapper ul, .mainWrapper ol {
@@ -242,6 +233,7 @@ pre {
 }
 
 /* Header section ends here */
+
 .headerNav {
   font-family: 'Roboto';
   padding: 0px 24px;
@@ -636,6 +628,16 @@ img {
   opacity: 0.7;
 }
 
+@media (max-width: 1023px) {
+  .titleWrapper {
+    padding: 0 15px;
+    display: block;
+  }
+  .mainWrapper {
+    padding: 0 15px;
+  }
+}
+
 @media (max-width: 767px) {
   hr {
     margin-top: 0;
@@ -688,21 +690,12 @@ img {
     flex: 1;
   }
 
-  .titleWrapper {
-    padding: 0 15px;
-    display: block;
-  }
-
   .mobileView {
     text-align: center !important;
   }
 
   .gitBtn {
     display: inline-block;
-  }
-
-  .mainWrapper {
-    padding: 0 15px;
   }
 
   .nextPreviousWrapper {
@@ -784,4 +777,21 @@ img {
   .navBarDefault {
     padding: 0 10px;
   }
+}
+
+.go-top-btn {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  overflow: hidden;
+  border-radius: 0;
+  bottom: 15px;
+  right: 10px;
+  background: url(/top-btn.png) 0 0 no-repeat;
+  background-size: 40px 40px;
+  color: transparent;
+  z-index: 99;
+  box-shadow: none;
+  border: none;
+  background-color: rgba(0,0,0,0);
 }
