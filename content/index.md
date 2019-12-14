@@ -22,8 +22,8 @@ UX에 관심이 많은 프론트엔드 개발자입니다. 도전을 좋아합�
 
 ## J3
 
-![profile](./ap1.jpg)
-자기소개 3
+![J3](https://user-images.githubusercontent.com/6037055/70845552-80506680-1e93-11ea-92fc-46bfcb88deb5.jpeg)
+안녕하세요. Java 백엔드 개발자입니다. 잘하는 사람이 되고 싶습니다.
 
 ## D1
 
