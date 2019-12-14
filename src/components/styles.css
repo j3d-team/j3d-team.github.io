@@ -775,7 +775,7 @@ img {
   position: fixed;
   overflow: hidden;
   border-radius: 0;
-  bottom: 15px;
+  bottom: 25px;
   right: 10px;
   background: url(/top-btn.png) 0 0 no-repeat;
   background-size: 40px 40px;
