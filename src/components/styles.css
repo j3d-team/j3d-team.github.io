@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
-body {
+body * {
   font-family: 'Roboto';
 }
 
@@ -171,7 +171,7 @@ body {
   -moz-box-shadow: -1px 0px 4px 1px rgba(175,158,232,.8);
   -o-box-shadow: -1px 0px 4px 1px rgba(175,158,232,.4);
   z-index: 1;
-  padding: 15px;
+  padding: 10px;
 }
 .navBarHeader {
   min-width: 335px;
@@ -190,8 +190,8 @@ body {
 }
 
 .navBarBrand img {
-  width: 40px;
-  margin-right: 16px;
+  width: 50px;
+  margin-right: 10px;
   display: inline-block;
 }
 
@@ -762,4 +762,14 @@ img {
     display: flex !important;
     align-items: center;
   }
+}
+
+[alt=profile] {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.css-kgl18x {
+  display: flex;
 }

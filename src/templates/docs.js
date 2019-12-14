@@ -151,14 +151,6 @@ export default class MDXRuntimeTest extends Component {
         </Helmet>
         <div className={"titleWrapper"}>
           <h1 className={"title"}>{mdx.fields.title}</h1>
-          <Edit className={"mobileView"}>
-            <Link
-              className={"gitBtn"}
-              to={`${docsLocation}/${mdx.parent.relativePath}`}
-            >
-              <img src={gitHub} alt={"Github logo"} /> Edit on GitHub
-            </Link>
-          </Edit>
         </div>
         <div className={"mainWrapper"}>
           <MDXRenderer>{mdx.body}</MDXRenderer>
