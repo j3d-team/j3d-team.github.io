@@ -55,11 +55,6 @@
     "build": "gatsby build --prefix-paths",
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run deploy"
-    }
-  },
   "devDependencies": {
     "gatsby-plugin-remove-trailing-slashes": "^2.1.2",
     "gh-pages": "^2.1.1",

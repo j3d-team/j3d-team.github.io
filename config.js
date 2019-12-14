@@ -56,7 +56,7 @@ const config = {
     D1: {
       name: "D1",
       imageUrl: "https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=D1",
-      githubUrl: "",
+      githubUrl: "https://github.com/ifmoon",
       description: "ㅎ.ㅎ"
     }
   }
