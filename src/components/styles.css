@@ -773,3 +773,9 @@ img {
 .css-kgl18x {
   display: flex;
 }
+
+@media (max-width: 767px) {
+.navBarBrand {
+    padding: 0;
+}
+}
