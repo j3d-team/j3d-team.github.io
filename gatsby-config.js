@@ -18,14 +18,14 @@ const plugins = [
         {
           resolve: "gatsby-remark-images",
           options: {
-            maxWidth: 1035,
-            sizeByPixelDensity: true
+            maxWidth: 800
           }
         },
         {
           resolve: "gatsby-remark-copy-linked-files"
         }
       ],
+      plugins: [`gatsby-remark-images`],
       extensions: [".mdx", ".md"]
     }
   },
@@ -37,6 +37,12 @@ const plugins = [
     options: {
       name: "docs",
       path: `${__dirname}/content/`
+    }
+  },
+  {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      path: `${__dirname}/static/`
     }
   },
   {
