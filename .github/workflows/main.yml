@@ -12,11 +12,16 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: npm install
-        run: npm install --production
+        run: npm install
       - name: build
         run: npm run build
-      - name: GitHub Pages Deploy
-        uses: maxheld83/ghpages@v0.2.1
+      - name: GitHub Pages
+        if: success()
+        with:
+          target_branch: master
+          build_dir: public
+        uses: crazy-max/ghaction-github-pages@v1.2.5
         env:
-          BUILD_DIR: "public/"
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_PAT: ${{ secrets.GH_PAT }}
+
