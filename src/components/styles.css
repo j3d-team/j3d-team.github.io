@@ -60,7 +60,7 @@ body * {
   background-color: #fff !important;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle {
   background-color: #542683;
 }
 
@@ -159,17 +159,19 @@ body * {
 
 /* Header section starts here */
 .navBarDefault {
-  background-color: #372476;
+  /* background-color: #372476; */
+  background-color: white;
   border-radius: 0;
   border-top: 0;
   margin-bottom: 0;
   border: 0;
   display: flex;
   align-items: center;
-  box-shadow: -1px 0px 4px 1px rgba(175,158,232,.4);
+  /* box-shadow: -1px 0px 4px 1px rgba(175,158,232,.4);
   -webkit-box-shadow: -1px 0px 4px 1px rgba(175,158,232,.4);
   -moz-box-shadow: -1px 0px 4px 1px rgba(175,158,232,.8);
-  -o-box-shadow: -1px 0px 4px 1px rgba(175,158,232,.4);
+  -o-box-shadow: -1px 0px 4px 1px rgba(175,158,232,.4); */
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
   z-index: 1;
   padding: 10px;
 }
@@ -182,7 +184,8 @@ body * {
   font-size: 28px;
   line-height: 1.5;
   font-weight: 500;
-  color: #fff !important;
+  color: rgb(30, 29, 28) !important;
+  /* color: #fff !important; */
   padding: 0px 0px;
   display: flex;
   align-items: center;
