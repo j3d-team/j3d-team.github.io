@@ -55,9 +55,9 @@ const config = {
     },
     D1: {
       name: "D1",
-      imageUrl: "https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=D1",
+      imageUrl: "https://avatars3.githubusercontent.com/u/17061350?s=460&v=4",
       githubUrl: "https://github.com/ifmoon",
-      description: "ㅎ.ㅎ"
+      description: "넓고 얕게 배운 초보 프론트엔드 개발자입니다."
     }
   }
 };
