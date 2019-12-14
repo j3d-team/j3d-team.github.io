@@ -50,8 +50,8 @@ const config = {
     j3: {
       name: "J3",
       imageUrl: "https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=J3",
-      githubUrl: "",
-      description: ":)"
+      githubUrl: "https://github.com/kji6252",
+      description: "잘하는 사람이 되어 보자"
     },
     D1: {
       name: "D1",
