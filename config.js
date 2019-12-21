@@ -43,15 +43,15 @@ const config = {
     },
     J2: {
       name: "J2",
-      imageUrl: "https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=J2",
-      githubUrl: "",
-      description: ":)"
-    },
-    J3: {
-      name: "J3",
       imageUrl: "https://user-images.githubusercontent.com/6037055/70845552-80506680-1e93-11ea-92fc-46bfcb88deb5.jpeg",
       githubUrl: "http://github.com/kji6252",
       description: "Java로 잘하는 사람이 되고 싶습니다."
+    },
+    J3: {
+      name: "J3",
+      imageUrl: "https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=J2",
+      githubUrl: "",
+      description: ":)"
     },
     D1: {
       name: "D1",
