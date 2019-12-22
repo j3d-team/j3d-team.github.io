@@ -62,6 +62,12 @@ const config = {
       description:
         "백엔드, 프론트엔드 가리지 않고 모두 관심많은 초절정미녀 개발자입니다~!"
     },
+    J3: {
+      name: "J3",
+      imageUrl: "https://dummyimage.com/300x300/ffffff/69c2c7.jpg&text=J2",
+      githubUrl: "",
+      description: ":)"
+    },
     D1: {
       name: "D1",
       imageUrl: "https://avatars3.githubusercontent.com/u/17061350?s=460&v=4",
