@@ -209,6 +209,7 @@ body * {
 .mainWrapper {
   color: rgb(59, 69, 78);
   max-width: 750px;
+  padding-bottom: 30px;
 }
 .navBarUL li a:hover {
   opacity: .7;
@@ -750,16 +751,6 @@ img {
   }
 }
 
-[alt=profile] {
-  width: 150px;
-  height: 150px;
-  margin-right: 10px;
-}
-
-.css-kgl18x {
-  display: flex;
-}
-
 @media (max-width: 767px) {
   .navBarBrand {
       padding: 0;
@@ -784,4 +775,9 @@ img {
   box-shadow: none;
   border: none;
   background-color: rgba(0,0,0,0);
+}
+
+.mainWrapper h1, .mainWrapper h2, .mainWrapper h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
