@@ -10,6 +10,7 @@ const AuthorList = () => {
       {Object.values(authors).map(
         ({ name, imageUrl, githubUrl, email, description }, index) => (
           <>
+            <hr className="separator" />
             <AboutAuthor
               name={name}
               imageUrl={imageUrl}
@@ -17,7 +18,7 @@ const AuthorList = () => {
               email={email}
               description={description}
             />
-            {index < 3 && <hr className="separator" />}
+            {index === 3 && <hr className="separator" />}
           </>
         )
       )}
