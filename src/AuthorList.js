@@ -8,14 +8,18 @@ const AuthorList = () => {
   return (
     <div>
       {Object.values(authors).map(
-        ({ name, imageUrl, githubUrl, email, description }) => (
-          <AboutAuthor
-            name={name}
-            imageUrl={imageUrl}
-            githubUrl={githubUrl}
-            email={email}
-            description={description}
-          />
+        ({ name, imageUrl, githubUrl, email, description }, index) => (
+          <>
+            <hr className="separator" />
+            <AboutAuthor
+              name={name}
+              imageUrl={imageUrl}
+              githubUrl={githubUrl}
+              email={email}
+              description={description}
+            />
+            {index === 3 && <hr className="separator" />}
+          </>
         )
       )}
     </div>
