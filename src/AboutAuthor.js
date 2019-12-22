@@ -1,10 +1,9 @@
 import React from "react";
 import "./components/styles.css";
 
-const Author = ({ name, imageUrl, githubUrl, description }) => {
+const AboutAuthor = ({ name, imageUrl, githubUrl, email, description }) => {
   return (
     <>
-      <hr className="separator" />
       <div className="authorSection">
         <div className="authorImg">
           <img src={imageUrl} />
@@ -17,13 +16,18 @@ const Author = ({ name, imageUrl, githubUrl, description }) => {
                 <img src="./github-logo.png" />
               </a>
             ) : null}
+            {email ? (
+              <>
+                <img src="./email.png" />
+                <span>{email}</span>
+              </>
+            ) : null}
           </div>
           <div className="authorDesc">{description}</div>
         </div>
       </div>
-      <hr className="separator" />
     </>
   );
 };
 
-export default Author;
+export default AboutAuthor;

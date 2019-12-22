@@ -2,6 +2,7 @@
 title: "About"
 date: "2019-12-14"
 ---
+import AuthorList from '../src/AuthorList.js';
 
 # J3D?
 
@@ -10,22 +11,4 @@ J3D는 3명의 J와 1명의 D로 이루어진 친목성(?) 개발자 모임입�
 
 # Member
 
-## J1
-
-![profile](./j1.png)
-UX에 관심이 많은 프론트엔드 개발자입니다. 새로운 도전을 좋아합니다.
-
-## J2
-
-![profile](https://user-images.githubusercontent.com/6037055/70845552-80506680-1e93-11ea-92fc-46bfcb88deb5.jpeg)
-Java 백엔드 개발자입니다. 잘하는 사람이 되고 싶습니다.
-
-## J3
-
-![profile](./ap1.jpg)
-백앤드, 프론트앤드 가리지 않고 모두 관심많은 초절정미녀 개발자입니다~!
-
-## D1
-
-![profile](https://avatars3.githubusercontent.com/u/17061350?s=460&v=4)  
-안녕하세요, 넓고 얕게 공부한 프론트엔드 개발자입니다. 깊게 배우려고 노력중입니다 :)
+<AuthorList/>
