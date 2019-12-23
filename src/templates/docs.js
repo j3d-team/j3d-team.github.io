@@ -8,6 +8,7 @@ import NextPrevious from "../components/NextPrevious";
 import "../components/styles.css";
 import config from "../../config";
 import Author from "../Author";
+import Utterances from "./utterance";
 
 const forcedNavOrder = config.sidebar.forcedNavOrder;
 
@@ -132,7 +133,11 @@ export default class MDXRuntimeTest extends Component {
     return (
       <Layout {...this.props}>
         <Helmet>
-          {metaTitle ? <title>{metaTitle}</title> : <title>{config.siteMetadata.title}</title>}
+          {metaTitle ? (
+            <title>{metaTitle}</title>
+          ) : (
+            <title>{config.siteMetadata.title}</title>
+          )}
           {metaTitle ? <meta name="title" content={metaTitle} /> : null}
           {metaDescription ? (
             <meta name="description" content={metaDescription} />
@@ -156,6 +161,7 @@ export default class MDXRuntimeTest extends Component {
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </div>
         {author && <Author {...config.authors[author]} />}
+        <Utterances />
         <div className={"addPaddTopBottom"}>
           <NextPrevious mdx={mdx} nav={nav} />
         </div>
