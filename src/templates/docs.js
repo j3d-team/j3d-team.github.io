@@ -8,7 +8,7 @@ import NextPrevious from "../components/NextPrevious";
 import "../components/styles.css";
 import config from "../../config";
 import Author from "../Author";
-import Utterances from "./utterance";
+import Utterances from "./Utterance";
 
 const forcedNavOrder = config.sidebar.forcedNavOrder;
 
