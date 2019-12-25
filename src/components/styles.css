@@ -389,7 +389,7 @@ pre {
 }
 
 .title {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1.5;
   font-weight: 500;
   border-left: 2px solid rgb(116, 76, 188);
@@ -785,6 +785,19 @@ img {
 }
 
 .mainWrapper h1, .mainWrapper h2, .mainWrapper h3 {
-  margin-top: 40px;
+  margin-top: 46px;
   margin-bottom: 20px;
 }
+
+.mainWrapper h1 {
+  font-size: 26px;
+}
+
+.mainWrapper h2 {
+  font-size: 24px;
+}
+
+.mainWrapper h3 {
+  font-size: 22px;
+}
+
