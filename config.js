@@ -57,7 +57,7 @@ const config = {
         "https://user-images.githubusercontent.com/17061350/71318134-2cb3cd80-24d0-11ea-8ed4-97baa8cb279b.jpg",
       githubUrl: "http://github.com/desponia",
       description:
-        "백엔드, 프론트엔드 가리지 않고 모두 관심많은 초절정미녀 개발자입니다~!"
+        "백엔드, 프론트엔드 가리지 않고 모두 관심많은 초절정미녀 개발자입니다~!!"
     },
     D1: {
       name: "D1",
