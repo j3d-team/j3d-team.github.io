@@ -117,7 +117,7 @@ default로 `ISC`로 지정되었으나 우리는 GitHub에서 repository를 생�
 <br/>
 
 가장 중요한 프로그램의 기본 진입 점(entry point)인 **main**를 지정합시다.  
-default로 `index.js`로 지정되었으나 원하는 위치의 소스로 재설정합니다.
+default로 `index.js`로 지정되었으나 원하는 위치의 소스로 재설정합니다.  
 패키지의 이름이 `j3d-npm-sample`이고, 사용자가 `require('j3d-npm-sample')` or `import 'j3d-npm-sample'`를 사용하면 진입 점의 **main** 모듈에서 exports한 object가 반환(return)됩니다.
 ```json
 {
@@ -220,7 +220,8 @@ $ npm i j3d-npm-sample
 아래처럼 설치한 패키지 모듈을 import하여 해당 모듈의 `sayHello` 메소드를 실행하면 console에 `hello NPM!`이 찍히는 것을 볼 수 있습니다.
 
 ```javascript
-var npmSample = require('j3d-npm-sample');
+const npmSample = require('j3d-npm-sample');
+
 npmSample.sayHello();
 ```
 ![npm-use](/npm-package-publish/npm-use.png)
