@@ -5,6 +5,8 @@ metaTitle: "NPM 모듈 제작 및 배포해보기"
 metaDescription: "NPM 모듈 제작 및 배포 튜토리얼입니다."
 ---
 
+![npm-logo](/npm-package-publish/npm-logo.png)
+
 회사에서 프론트엔드 업무를 맡으면 ReactJS나 VueJS 등과 같은 프론트엔드 프레임워크를 사용하여 UI 개발을 주로 하게 됩니다.  
 회사에서는 여러 프로젝트가 진행되는데 공통으로 사용하는 UI 모듈들이 산발적으로 중복 개발되기도 합니다.  
 이런 불상사를 막기 위해 사내 NPM Registry에 공통 UI 모듈을 등록하여 각 프로젝트에서 install 및 import하여 사용하면 좋을 것 같은 생각이 들었고 실제로 그렇게 관리하는 회사가 많습니다.  
