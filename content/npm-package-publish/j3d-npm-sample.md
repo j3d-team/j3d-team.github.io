@@ -35,7 +35,7 @@ $ git clone https://github.com/jinkyung/j3d-npm-sample.git
 
 # NPM 프로젝트 설정
 
-이제 클론된 프로젝트 디렉토리 위치로 이동 후, 아래 명령어를 실행한 후, 일단 Is this OK? 문구가 나올 때까지 `Enter` 키를 눌러줍니다.
+이제 클론된 프로젝트 디렉토리 위치로 이동 후, 아래 명령어를 실행한 후, 일단 `Is this OK?` 문구가 나올 때까지 `Enter` 키를 눌러줍니다.
 ```bash
 $ npm init
 ```
@@ -170,7 +170,7 @@ README 에서 작성된 내용은 GitHub Repository 메인 화면과 배포된 N
 
 # 모듈 코드 작성
 
-위의 `package.json`에서 설정한 **main** 모듈 파일을 생성하여 아래와 같이 샘플 모듈 코드를 작성해봅시다.
+위의 `package.json`에서 설정한 **main** 모듈 파일(`dist/j3dSampleModule.js`)을 생성하여 아래와 같이 샘플 모듈 코드를 작성해봅시다.
 ```javascript
 // dist/j3dSampleModule.js
 
@@ -224,6 +224,6 @@ var npmSample = require('j3d-npm-sample');
 npmSample.sayHello();
 ```
 ![npm-use](/npm-package-publish/npm-use.png)
-
-<br/><br/>
+<br/>
 끝!
+<br/><br/>

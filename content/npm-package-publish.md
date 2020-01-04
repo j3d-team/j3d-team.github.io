@@ -15,7 +15,7 @@ metaDescription: "NPM 모듈 패키지 제작 및 배포 튜토리얼입니다."
 아래와 같은 순서로 스터디 및 정리해나가려고 합니다.  
 
 
-1. 빠르게 샘플 모듈을 만들어 NPM 배포해보기
-2. cross frontend framework를 지원하는 UI 모듈 만들기
-3. 사내 NPM Registry 구축하기
-4. 사내 NPM Registry에 공통 UI 모듈 배포 및 사용하기
+[1. 빠르게 샘플 모듈을 만들어 NPM 배포해보기](/npm-package-publish/j3d-npm-sample)  
+2. cross frontend framework를 지원하는 UI 모듈 만들기  
+3. 사내 NPM Registry 구축하기  
+4. 사내 NPM Registry에 공통 UI 모듈 배포 및 사용하기  
