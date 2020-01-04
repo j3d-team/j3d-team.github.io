@@ -1,5 +1,6 @@
 import React from "react";
 import "./components/styles.css";
+const githubIcon = require("./components/images/github.svg");
 
 const Author = ({ name, imageUrl, githubUrl, description }) => {
   return (
@@ -14,7 +15,7 @@ const Author = ({ name, imageUrl, githubUrl, description }) => {
             <strong>{name}</strong>
             {githubUrl ? (
               <a href={githubUrl} target="_blank">
-                <img src="/github-logo.png" />
+                <img src={githubIcon} />
               </a>
             ) : null}
           </div>
