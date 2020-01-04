@@ -1,11 +1,12 @@
 ---
-title: "NPM 모듈 제작 및 배포"
+title: "NPM 모듈 패키지 제작 및 배포"
 author: "J1"
-metaTitle: "NPM 모듈 제작 및 배포해보기"
-metaDescription: "NPM 모듈 제작 및 배포 튜토리얼입니다."
+metaTitle: "NPM 모듈 패키지 제작 및 배포해보기"
+metaDescription: "NPM 모듈 패키지 제작 및 배포 튜토리얼입니다."
 ---
 
 ![npm-logo](/npm-package-publish/npm-logo.png)
+<br/>
 
 회사에서 프론트엔드 업무를 맡으면 ReactJS나 VueJS 등과 같은 프론트엔드 프레임워크를 사용하여 UI 개발을 주로 하게 됩니다.  
 회사에서는 여러 프로젝트가 진행되는데 공통으로 사용하는 UI 모듈들이 산발적으로 중복 개발되기도 합니다.  
