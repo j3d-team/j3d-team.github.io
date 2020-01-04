@@ -801,3 +801,6 @@ img {
   font-size: 22px;
 }
 
+[alt=npm-logo] {
+  max-width: 400px;
+}

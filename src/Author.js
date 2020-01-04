@@ -14,7 +14,7 @@ const Author = ({ name, imageUrl, githubUrl, description }) => {
             <strong>{name}</strong>
             {githubUrl ? (
               <a href={githubUrl} target="_blank">
-                <img src="./github-logo.png" />
+                <img src="/github-logo.png" />
               </a>
             ) : null}
           </div>

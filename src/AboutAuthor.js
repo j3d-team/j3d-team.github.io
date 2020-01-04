@@ -13,12 +13,12 @@ const AboutAuthor = ({ name, imageUrl, githubUrl, email, description }) => {
             <strong>{name}</strong>
             {githubUrl ? (
               <a href={githubUrl} target="_blank">
-                <img src="./github-logo.png" />
+                <img src="/github-logo.png" />
               </a>
             ) : null}
             {email ? (
               <>
-                <img src="./email.png" />
+                <img src="/email.png" />
                 <span>{email}</span>
               </>
             ) : null}
