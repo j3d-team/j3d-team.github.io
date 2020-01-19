@@ -1,9 +1,12 @@
 ---
-title: "NPM 모듈 제작 및 배포"
+title: "NPM 모듈 패키지 제작 및 배포"
 author: "J1"
-metaTitle: "NPM 모듈 제작 및 배포해보기"
-metaDescription: "NPM 모듈 제작 및 배포 튜토리얼입니다."
+metaTitle: "NPM 모듈 패키지 제작 및 배포해보기"
+metaDescription: "NPM 모듈 패키지 제작 및 배포 튜토리얼입니다."
 ---
+
+![npm-logo](/npm-package-publish/npm-logo.png)
+<br/>
 
 회사에서 프론트엔드 업무를 맡으면 ReactJS나 VueJS 등과 같은 프론트엔드 프레임워크를 사용하여 UI 개발을 주로 하게 됩니다.  
 회사에서는 여러 프로젝트가 진행되는데 공통으로 사용하는 UI 모듈들이 산발적으로 중복 개발되기도 합니다.  
@@ -12,7 +15,7 @@ metaDescription: "NPM 모듈 제작 및 배포 튜토리얼입니다."
 아래와 같은 순서로 스터디 및 정리해나가려고 합니다.  
 
 
-1. 빠르게 샘플 모듈을 만들어 NPM 배포해보기
-2. cross frontend framework를 지원하는 UI 모듈 만들기
-3. 사내 NPM Registry 구축하기
-4. 사내 NPM Registry에 공통 UI 모듈 배포 및 사용하기
+[1. 빠르게 샘플 모듈을 만들어 NPM 배포해보기](/npm-package-publish/j3d-npm-sample)  
+2. cross frontend framework를 지원하는 UI 모듈 만들기  
+3. 사내 NPM Registry 구축하기  
+4. 사내 NPM Registry에 공통 UI 모듈 배포 및 사용하기  
